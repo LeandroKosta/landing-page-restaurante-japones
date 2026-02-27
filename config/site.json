@@ -1,0 +1,127 @@
+{
+  "restaurant": {
+    "name": "Sakura Premium",
+    "tagline": "Experiência Autêntica da Culinária Japonesa",
+    "phone": "+55 11 3456-7890",
+    "whatsappNumber": "+5511987654321",
+    "email": "contato@sakurapremium.com.br",
+    "address": {
+      "street": "Rua dos Pinheiros, 1234",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "05422-001",
+      "country": "Brasil",
+      "coordinates": {
+        "lat": -23.5505,
+        "lng": -46.6333
+      }
+    },
+    "openingHours": [
+      { "dayOfWeek": "Terça a Quinta", "opens": "18:00", "closes": "23:00" },
+      { "dayOfWeek": "Sexta e Sábado", "opens": "18:00", "closes": "00:00" },
+      { "dayOfWeek": "Domingo", "opens": "12:00", "closes": "22:00" }
+    ],
+    "priceRange": "$$$"
+  },
+  "content": {
+    "hero": {
+      "headline": "Autêntica Culinária Japonesa Premium",
+      "subheadline": "Uma jornada sensorial pela tradição e excelência gastronômica",
+      "backgroundMedia": {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=1920&q=80",
+        "alt": "Interior elegante do restaurante Sakura Premium"
+      }
+    },
+    "concept": {
+      "title": "Nossa Filosofia",
+      "description": "No Sakura Premium, celebramos a arte milenar da culinária japonesa com ingredientes selecionados e técnicas tradicionais. Cada prato é uma obra-prima criada pelo nosso chef com mais de 20 anos de experiência no Japão.",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800&q=80",
+        "alt": "Chef preparando sushi"
+      }
+    },
+    "experiences": [
+      {
+        "id": "omakase",
+        "title": "Omakase",
+        "description": "Deixe-se surpreender pela seleção exclusiva do chef. Uma experiência única com os melhores ingredientes da estação.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=600&q=80",
+          "alt": "Experiência Omakase"
+        }
+      },
+      {
+        "id": "sushi-premium",
+        "title": "Sushi Premium",
+        "description": "Peixes frescos importados diariamente, arroz temperado na medida exata e técnicas tradicionais de preparo.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1583623025817-d180a2221d0a?w=600&q=80",
+          "alt": "Sushi Premium"
+        }
+      },
+      {
+        "id": "hot-dishes",
+        "title": "Pratos Quentes",
+        "description": "Tempurá crocante, yakitori grelhado e outros clássicos preparados com perfeição.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=600&q=80",
+          "alt": "Pratos Quentes"
+        }
+      },
+      {
+        "id": "drinks",
+        "title": "Drinks & Sakê",
+        "description": "Carta de sakês premium e drinks autorais que harmonizam perfeitamente com nossa culinária.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80",
+          "alt": "Drinks e Sakê"
+        }
+      }
+    ],
+    "reviews": [
+      {
+        "id": "1",
+        "author": "Maria Silva",
+        "rating": 5,
+        "text": "Melhor experiência gastronômica japonesa de São Paulo! O omakase é impecável.",
+        "date": "2024-01-15"
+      },
+      {
+        "id": "2",
+        "author": "João Santos",
+        "rating": 5,
+        "text": "Ambiente sofisticado, atendimento excepcional e comida divina. Vale cada centavo!",
+        "date": "2024-01-20"
+      },
+      {
+        "id": "3",
+        "author": "Ana Costa",
+        "rating": 5,
+        "text": "O chef é um verdadeiro artista. Cada prato é uma obra de arte. Voltarei com certeza!",
+        "date": "2024-02-01"
+      }
+    ],
+    "gallery": [
+      { "src": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80", "alt": "Ambiente interno do restaurante" },
+      { "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80", "alt": "Detalhe da decoração japonesa" },
+      { "src": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80", "alt": "Bar de sushi" },
+      { "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80", "alt": "Mesa preparada" },
+      { "src": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80", "alt": "Área VIP" },
+      { "src": "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=800&q=80", "alt": "Entrada do restaurante" }
+    ]
+  },
+  "seo": {
+    "title": "Sakura Premium - Restaurante Japonês Premium em São Paulo",
+    "description": "Experimente a autêntica culinária japonesa premium no coração de São Paulo. Omakase, sushi premium e pratos tradicionais preparados por chef com 20 anos de experiência.",
+    "keywords": ["restaurante japonês", "sushi premium", "omakase", "culinária japonesa", "são paulo", "pinheiros"],
+    "ogImage": "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=1200&q=80"
+  },
+  "integrations": {
+    "googleMapsApiKey": "YOUR_GOOGLE_MAPS_API_KEY",
+    "googleAnalyticsId": "G-XXXXXXXXXX",
+    "gtmId": "GTM-XXXXXXX",
+    "metaPixelId": "XXXXXXXXXXXXXXX",
+    "recaptchaSiteKey": "YOUR_RECAPTCHA_SITE_KEY"
+  }
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Premium - Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap');
+        
+        body { font-family: 'Inter', sans-serif; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        
+        html { scroll-behavior: smooth; }
+        
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23222" width="1200" height="800"/><text x="50%" y="50%" fill="%23666" font-size="48" text-anchor="middle">Hero Background</text></svg>');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .placeholder-img {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-sm shadow-lg">
+        <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="#" class="text-yellow-500 font-serif text-2xl font-bold">Sakura Premium</a>
+            <ul class="hidden md:flex items-center space-x-6">
+                <li><a href="#concept" class="text-white hover:text-yellow-500">Conceito</a></li>
+                <li><a href="#experiences" class="text-white hover:text-yellow-500">Experiências</a></li>
+                <li><a href="#reviews" class="text-white hover:text-yellow-500">Avaliações</a></li>
+                <li><a href="#gallery" class="text-white hover:text-yellow-500">Galeria</a></li>
+                <li><a href="#reservation" class="text-white hover:text-yellow-500">Reservas</a></li>
+                <li><a href="#location" class="text-white hover:text-yellow-500">Localização</a></li>
+                <li><a href="#reservation" class="bg-yellow-500 text-black px-6 py-2 rounded hover:bg-yellow-400">Reservar Mesa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-bg min-h-screen flex items-center justify-center text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="font-serif text-5xl md:text-7xl mb-6 animate-fade-in">
+                Autêntica Culinária Japonesa Premium
+            </h1>
+            <p class="text-xl text-gray-200 mb-12 max-w-2xl mx-auto">
+                Uma jornada sensorial pela tradição e excelência gastronômica
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#reservation" class="bg-yellow-500 text-black px-8 py-4 rounded-lg hover:bg-yellow-400 font-semibold text-lg">
+                    Reservar Mesa
+                </a>
+                <a href="#" class="border-2 border-yellow-500 text-yellow-500 px-8 py-4 rounded-lg hover:bg-yellow-500 hover:text-black font-semibold text-lg">
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Concept Section -->
+    <section id="concept" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="font-serif text-5xl text-black mb-6">Nossa Filosofia</h2>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        No Sakura Premium, celebramos a arte milenar da culinária japonesa com ingredientes 
+                        selecionados e técnicas tradicionais. Cada prato é uma obra-prima criada pelo nosso 
+                        chef com mais de 20 anos de experiência no Japão.
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-1 bg-yellow-500"></div>
+                        <span class="text-yellow-500 font-semibold">Tradição & Excelência</span>
+                    </div>
+                </div>
+                <div class="placeholder-img h-96 rounded-lg shadow-2xl">Chef Image</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section id="experiences" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-5xl text-black mb-4">Experiências Gastronômicas</h2>
+                <p class="text-gray-600 text-lg">Descubra as diferentes formas de vivenciar a autêntica culinária japonesa</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="placeholder-img h-64">Omakase</div>
+                    <div class="p-6">
+                        <h3 class="font-serif text-2xl text-black mb-3">Omakase</h3>
+                        <p class="text-gray-600">Deixe-se surpreender pela seleção exclusiva do chef.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="placeholder-img h-64">Sushi Premium</div>
+                    <div class="p-6">
+                        <h3 class="font-serif text-2xl text-black mb-3">Sushi Premium</h3>
+                        <p class="text-gray-600">Peixes frescos importados diariamente.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="placeholder-img h-64">Hot Dishes</div>
+                    <div class="p-6">
+                        <h3 class="font-serif text-2xl text-black mb-3">Pratos Quentes</h3>
+                        <p class="text-gray-600">Tempurá crocante e yakitori grelhado.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="placeholder-img h-64">Drinks</div>
+                    <div class="p-6">
+                        <h3 class="font-serif text-2xl text-black mb-3">Drinks & Sakê</h3>
+                        <p class="text-gray-600">Carta de sakês premium e drinks autorais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-20 bg-black text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-5xl mb-4">O Que Dizem Nossos Clientes</h2>
+                <div class="flex items-center justify-center space-x-2 mb-4">
+                    <span class="text-yellow-500 text-2xl">★★★★★</span>
+                </div>
+                <p class="text-gray-400">Avaliação 5.0 no Google Reviews</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-900 p-8 rounded-lg border border-yellow-500/20">
+                    <div class="text-yellow-500 mb-4">★★★★★</div>
+                    <p class="text-gray-300 mb-6 italic">"Melhor experiência gastronômica japonesa de São Paulo!"</p>
+                    <p class="font-semibold text-yellow-500">Maria Silva</p>
+                </div>
+                <div class="bg-gray-900 p-8 rounded-lg border border-yellow-500/20">
+                    <div class="text-yellow-500 mb-4">★★★★★</div>
+                    <p class="text-gray-300 mb-6 italic">"Ambiente sofisticado e comida divina!"</p>
+                    <p class="font-semibold text-yellow-500">João Santos</p>
+                </div>
+                <div class="bg-gray-900 p-8 rounded-lg border border-yellow-500/20">
+                    <div class="text-yellow-500 mb-4">★★★★★</div>
+                    <p class="text-gray-300 mb-6 italic">"O chef é um verdadeiro artista!"</p>
+                    <p class="font-semibold text-yellow-500">Ana Costa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-5xl text-black mb-4">Nosso Ambiente</h2>
+                <p class="text-gray-600 text-lg">Conheça o espaço onde a magia acontece</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="placeholder-img h-64 rounded-lg">Gallery 1</div>
+                <div class="placeholder-img h-64 rounded-lg">Gallery 2</div>
+                <div class="placeholder-img h-64 rounded-lg">Gallery 3</div>
+                <div class="placeholder-img h-64 rounded-lg">Gallery 4</div>
+                <div class="placeholder-img h-64 rounded-lg">Gallery 5</div>
+                <div class="placeholder-img h-64 rounded-lg">Gallery 6</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <div class="text-center mb-12">
+                <h2 class="font-serif text-5xl mb-4">Reserve Sua Mesa</h2>
+                <p class="text-gray-400 text-lg">Garanta sua experiência gastronômica única</p>
+                <div class="mt-4 inline-block bg-red-900 px-4 py-2 rounded">
+                    <p class="text-sm">⚠️ Vagas limitadas - Reserve com antecedência</p>
+                </div>
+            </div>
+            <form class="space-y-6">
+                <div>
+                    <label class="block text-sm font-medium mb-2">Nome Completo *</label>
+                    <input type="text" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white" placeholder="Seu nome">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Telefone *</label>
+                        <input type="tel" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white" placeholder="+5511999999999">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Email *</label>
+                        <input type="email" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white" placeholder="seu@email.com">
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Data *</label>
+                        <input type="date" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Horário *</label>
+                        <input type="time" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Pessoas *</label>
+                        <input type="number" min="1" max="20" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white" placeholder="2">
+                    </div>
+                </div>
+                <button type="submit" class="w-full bg-yellow-500 text-black px-8 py-4 rounded-lg hover:bg-yellow-400 font-semibold text-lg">
+                    Confirmar Reserva
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-5xl text-black mb-4">Localização</h2>
+                <p class="text-gray-600 text-lg">Venha nos visitar</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="placeholder-img h-96 rounded-lg">Google Maps</div>
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="font-serif text-2xl text-black mb-4">📍 Endereço</h3>
+                        <p class="text-gray-700 text-lg">
+                            Rua dos Pinheiros, 1234<br>
+                            São Paulo, SP<br>
+                            CEP: 05422-001
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="font-serif text-2xl text-black mb-4">🕐 Horário de Funcionamento</h3>
+                        <div class="space-y-2 text-gray-700">
+                            <div class="flex justify-between">
+                                <span>Terça a Quinta</span>
+                                <span>18:00 - 23:00</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Sexta e Sábado</span>
+                                <span>18:00 - 00:00</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Domingo</span>
+                                <span>12:00 - 22:00</span>
+                            </div>
+                            <p class="text-sm text-gray-500 mt-4">Segunda-feira: Fechado</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-serif text-2xl text-black mb-4">📞 Contato</h3>
+                        <p class="text-gray-700">
+                            +55 11 3456-7890<br>
+                            contato@sakurapremium.com.br
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="font-serif text-2xl text-yellow-500 mb-4">Sakura Premium</h3>
+                    <p class="text-gray-400">Experiência Autêntica da Culinária Japonesa</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Links Rápidos</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#concept" class="hover:text-yellow-500">Conceito</a></li>
+                        <li><a href="#experiences" class="hover:text-yellow-500">Experiências</a></li>
+                        <li><a href="#reservation" class="hover:text-yellow-500">Reservas</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Redes Sociais</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-yellow-500">Instagram</a>
+                        <a href="#" class="text-gray-400 hover:text-yellow-500">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
+                <p>&copy; 2024 Sakura Premium. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Widget -->
+    <a href="#" class="fixed bottom-6 right-6 z-40 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-2xl">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+</body>
+</html>
