@@ -57,7 +57,7 @@ export default function ReviewsSection() {
                 ))}
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed italic">
-                "{review.text}"
+                &ldquo;{review.text}&rdquo;
               </p>
               <div className="flex items-center justify-between">
                 <p className="font-semibold text-gold">{review.author}</p>
